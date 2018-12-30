@@ -5,7 +5,7 @@
 ### The landing page for assignment 3 should be at /
 #####################################################################
 
-from bottle import route, run, default_app, debug
+from bottle import route, run, default_app, debug, template, static_file, get
 
 def htmlify(title,text):
     page = """
@@ -22,12 +22,27 @@ def htmlify(title,text):
 
     """ % (title,text)
     return page
-
+    
+@route("/")
 def index():
-    return htmlify("My lovely website",
-                   "This is going to be an awesome website, when it is finished.")
+	return template("index.html")
+	
+@route("/about_civilizations.html")
+def about_civ():
+	return template("about_civilizations.html")
+	
+@route("/States.html")
+def states():
+	return template("States.html")
+	
+@route("/Sources.html")
+def sources():
+	return template("Sources.html")
 
-route('/', 'GET', index)
+@route("/static/<filename>")
+def static(filename):
+	return static_file(filename, root="./static")
+
 
 #####################################################################
 ### Don't alter the below code.

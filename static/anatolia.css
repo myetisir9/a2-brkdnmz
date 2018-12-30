@@ -1,0 +1,218 @@
+body.index{
+background-image: url("history-anatolian-women-turkey.jpg");
+background-size: 120%;
+}
+
+h1.index{
+text-align:center;
+color:lightblue;
+font-size: 50px;
+}
+p.index{
+text-align:center;
+color:white;
+font-size: 30px;
+}
+#ul01{
+text-align:center;
+color:white;
+
+}
+
+#p01{
+text-align: center;
+color: black;
+
+}
+
+#ul02{
+margin: 0;
+padding: 0;
+list-style-type: none;
+overflow: hidden;
+background-color: brown;
+width: 100%;
+}
+
+li.li02{
+float: left;
+}
+
+
+
+li.li02 a{
+display: block;
+padding: 20px;
+background-color: orange;
+color: black;
+margin: 0px 100px 0px 100px;
+}
+
+table.states, th.states, td.states{
+border-style: solid;
+border-collapse: collapse;
+border-color: red;
+}
+
+body.hittites{
+background-image: url("hittites.jpg");
+}
+
+body.phrygia{
+background-image: url("phrygia edited.jpg.svg");
+background-size: cover;
+}
+
+h1.phrygia{
+font-size: 50px;
+}
+
+ol.phrygia{
+font-size: 20px;
+margin: 10px;
+color: red;
+font-weight: bold;
+}
+
+h2.index{
+color: pink;
+}
+
+ol.index{
+color: yellow;
+}
+
+a.index:link{
+color: red;
+}
+
+a.index:visited{
+color:pink;
+}
+
+a.index:hover{
+color:lightblue;
+}
+
+body.about{
+background-image: url("aboutanatolia.jpg");
+background-size: cover;
+}
+
+h1.about{
+color: turquoise;
+}
+#h1about01{
+color: blue;
+}
+
+#olabout01{
+color: red;
+font-weight: bold;
+}
+
+#olabout02{
+color: black;
+font-weight: bold;
+}
+
+#olabout03{
+color: white;
+font-weight: bold;
+}
+
+#olabout04{
+color: black;
+font-weight: bold;
+}
+
+#pabout01{
+color: rgb(245,200,53);
+font-weight: bold;
+font-size:20px;
+}
+
+#olabout05{
+background-color: white;
+}
+
+body.states{
+background-image: url("states.jpg");
+background-size: cover;
+}
+
+ol.hittites{
+color: red;
+}
+
+body.lydians{
+background-image: url("lydians.jpeg");
+background-size: cover;
+}
+
+h1.lydians{
+color: red;
+}
+
+h1.hittites{
+text-align: center;
+}
+
+ol.lydians{
+color: blue;
+}
+
+li.lydians{
+margin:15px;
+font-weight: bold;
+}
+
+body.ions{
+background-image: url("ions.jpg");
+background-repeat: no-repeat;
+background-size: 75%;
+}
+
+h1.ions{
+color: red;
+}
+
+ol.ions{
+color: blue;
+}
+
+li.ions{
+margin:5px;
+}
+
+body.urartu{
+background-image: url("urartu.jpg");
+background-size: cover;
+}
+
+h1.urartu{
+color: lightblue;
+}
+
+ol.urartu{
+color: turquoise;
+font-weight: bold;
+}
+
+li.urartu{
+margin: 5px;
+}
+
+a.sources:link{
+color:red;
+}
+
+a.sources:visited{
+color:magenta;
+}
+
+a.sources:hover{
+color:blue;
+}
+
+
