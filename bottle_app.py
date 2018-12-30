@@ -27,17 +27,9 @@ def htmlify(title,text):
 def index():
 	return template("index.html")
 	
-@route("/about_civilizations.html")
-def about_civ():
-	return template("about_civilizations.html")
-	
-@route("/States.html")
-def states():
-	return template("States.html")
-	
-@route("/Sources.html")
-def sources():
-	return template("Sources.html")
+@route("/<filename:re:.*\.html>")
+def website(filename):
+	return template(filename, root="/")
 
 @route("/static/<filename>")
 def static(filename):
