@@ -8,8 +8,6 @@ yorumlar=[]
 numara = 1
 sifre = "378bc297aed78d68f2aa8dbb2064d8beb85f42fab45e1062e1749659a25b0524"
 
-
-
 while True:
     kullanici_sifresi = input("Please enter the password to be allowed to comment: ")
     if str(hashcreator(kullanici_sifresi)) != sifre:
@@ -19,10 +17,6 @@ while True:
     else:
      print("Correct password, WELCOME :) !")
      break 
-
-        
-    
-        
 
 while True:
     yorum= [input("Please leave a comment: ")]
